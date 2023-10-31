@@ -17,6 +17,8 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
     onAddGoal(enteredGoal, enteredSummary);
   }
 
+  console.log('you a bitch')
+
   return (
     <form onSubmit={handleSubmit}>
       <p>
